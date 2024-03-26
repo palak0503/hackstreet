@@ -5,7 +5,8 @@ function About() {
     return(
         <div>
             <Header />
-            <h1>About</h1>
+
+            <h1>This is the intro</h1>
         </div>
     )
 }
