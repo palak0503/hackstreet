@@ -13,6 +13,7 @@ function Header() {
         <ul style={styles.navbarMenu}>
             <li style={styles.list}><Link to="/" style={styles.tab}>Home</Link></li>
             <li style={styles.list}><Link to="/resources" style={styles.tab}>Resources</Link></li>
+            <li style={styles.list}><Link to="/findHome" style={styles.tab}>Find Home</Link></li>
             <li style={styles.list}><Link to="/about" style={styles.tab}>About</Link></li>
         </ul>
       </div>
@@ -35,7 +36,7 @@ const styles = {
     display: 'flex',
     listStyleType: 'none',
     justifyContent: 'space-between',
-    marginRight: 10
+    marginRight: 20
   },
   container: {
       backgroundColor: '#1F6933',

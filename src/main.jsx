@@ -4,6 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import Resources from './pages/Resources.jsx'
 import About from './pages/About.jsx'
+import FindHome from './pages/FindHome.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "resources",
     element: <Resources />, 
+  },
+  {
+    path: "findHome",
+    element: <FindHome />
   },
   {
     path: "about",
