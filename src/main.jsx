@@ -5,11 +5,14 @@ import './index.css'
 import Resources from './pages/Resources.jsx'
 import About from './pages/About.jsx'
 import FindHome from './pages/FindHome.jsx'
+
+
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-//hi
+
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -27,7 +30,9 @@ const router = createBrowserRouter([
     path: "about",
     element: <About />, 
   },
-]);
+])
+
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
