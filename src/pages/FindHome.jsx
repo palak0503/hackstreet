@@ -30,6 +30,8 @@ export default class FindHome extends Component {
           <div>
             <Header />
             <h1>Find Home</h1>
+            <input type="text"></input>
+            <button onClick="">Enter Zipcode</button>
             <div ref={this.mapRef} className="mapDiv"></div>
           </div>
         );
