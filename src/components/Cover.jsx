@@ -7,8 +7,8 @@ const Cover = () => {
         <div className="overlay"></div>
         <video src={videoBg} autoPlay loop muted />
         <div className="content">
-            <h1>Welcome</h1>
-            <p>To my site.</p>
+            <h1>Welcome to HackStreet!</h1>
+            <p>Hack Your Way Home: Where Dreams and Houses Meet</p>
         </div>
     </div>
   )
