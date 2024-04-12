@@ -25,7 +25,7 @@ function About() {
             <div class = "Square1">picture of decision matrix or something</div> 
 
             </div>
-            <div class = "row"> {/* g  */} 
+            <div class = "row"> {/* g j */} 
 
             <div class = "Square2">picture of finance or something</div>
 
