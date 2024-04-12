@@ -14,7 +14,7 @@ function Resources() {
             </div>
             <div className="flex">
                 <div className="box">
-                    <h4>Down Payments <br /> and Mortgages</h4>
+                    <h4>Down Payments <br /> and Mortgages</h4> 
                 </div>
                 <div className="box">
                     <h4>Interest Rates <br /> and Loan Types</h4>
