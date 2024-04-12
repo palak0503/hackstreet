@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header'
+import Cover from './components/Cover';
+import FrontPageFooter from './components/FrontPageFooter';
 
 export default class App extends Component {
 
@@ -10,7 +12,8 @@ export default class App extends Component {
   return (
     <div>
       <Header />
-      <h1>Home</h1>
+      <Cover/>
+      <FrontPageFooter/>
     </div>
   );
   }
